@@ -1,0 +1,134 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/assets/Profile-1.jpg"
+      },
+      "image": "/assets/Post-1.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2026-06-05T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_watson",
+        "profile_pic": "/assets/Profile-2.jpg"
+      },
+      "image": "/assets/Post-2.jpg",
+      "caption": "Coffee and coding ☕💻",
+      "likes": 250,
+      "comments": [
+        {
+          "user": "coder_king",
+          "comment": "React developer spotted 😎"
+        },
+        {
+          "user": "tech_girl",
+          "comment": "Nice setup!"
+        }
+      ],
+      "timestamp": "2026-06-04T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "alex_smith",
+        "profile_pic": "/assets/Profile-3.jpg"
+      },
+      "image": "/assets/Post-3.jpg",
+      "caption": "Weekend trip 🏖️",
+      "likes": 180,
+      "comments": [
+        {
+          "user": "traveler",
+          "comment": "Looks relaxing!"
+        }
+      ],
+      "timestamp": "2026-06-03T18:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "Koby",
+    "profile_pic": "/assets/Profile-4.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "emma__",
+      "profile_pic": "/assets/Profile-2.jpg"
+    },
+    {
+      "id": "102",
+      "username": "_smith",
+      "profile_pic": "/assets/Profile-3.jpg"
+    },
+    {
+      "id": "103",
+      "username": "john_",
+      "profile_pic": "/assets/Profile-1.jpg"
+    },
+    {
+      "id": "104",
+      "username": "Koby_Bryant",
+      "profile_pic": "/assets/Profile-4.jpg"
+    },
+    {
+      "id": "105",
+      "username": "K_yrie.Irving",
+      "profile_pic": "/assets/Profile-5.jpg"
+    },
+    {
+      "id": "106",
+      "username": "D_Rose",
+      "profile_pic": "/assets/Profile-6.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 104,
+        "username": "Koby_Bryant",
+        "profile_pic": "/assets/Profile-4.jpg"
+      },
+      "image": "/assets/Story-1.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 103,
+        "username": "alex_smith",
+        "profile_pic": "/assets/Profile-3.jpg"
+      },
+      "image": "/assets/Story-2.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/assets/Profile-1.jpg"
+      },
+      "image": "/assets/Story-3.jpg"
+    }
+  ],
+  "followers": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
